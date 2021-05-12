@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+-------- Layout Topo---------
+*/
+
+.topo{
+    width: 100%;
+    height: 30px;
+    background: rgb(189, 186, 186);
+    text-align: center;
+    
+}
+
+i{
+    padding: 3px 5px;
+    font-size: 25px;
+}
+
+#fone{
+    color: rgb(9, 102, 243);
+}
+
+#whats{
+    color: rgb(113, 173, 54);
+}
+
+span.numero{
+    position: relative;
+    top: -4px;
+    padding-left: 6px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*
+-------- Layout NAV---------
+*/
+.nav{
+    width: 100%;
+    padding: 60px 0;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1.logo{
+    
+    margin-left: 60px;
+  
+}
+
+.menu-nav{
+    margin-right: 60px;
+    position: relative;
+    font-size: 10px;
+}
+
+.menu{
+    
+    padding-right: 10px;
+    right: 100px;
+}
+
+a{  
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 8px;
+}
+a:hover{
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px 7px;
+    color: white;
+    border-radius: 5px;
+}
+
+a#cadastro{
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 5px;
+    color: white;
+    padding: 30px 7px;
+}
+
+a#cadastro:hover{
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/*
+------- Layout Imagem Topo
+*/
+
+.img-topo{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../imagens/img-topo.jpg);
+    background-position: center;
+
+}
+
+.box-branca{
+    position: relative;
+    top: 361px;
+    width: 100%;
+    height: 120px;
+    background-color:  rgba(255, 255, 255, 0.5);
+
+}
+
+.desenvolver{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+}
+
+#inov, #resul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(29, 0, 136, 0.842);
+}
+
+#resul{
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+/*
+------- Projetos e serviços
+*/
+.box-central{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.box-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-azul{
+    width: 230px;
+    height: 280px;
+    background-color: rgb(42, 64, 131);
+    color: white;
+    text-align: center;
+}
+
+.projetos{
+    padding:0 60px ;
+}
+
+
+h3#titulos{
+    
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+p#paragrafo{
+    position: relative;
+    top: 60px;
+    font-size: 14px;
+}
+
+button#btn-box{
+    position: relative;
+    top: 80px;
+    width: 120px;
+    height: 40px;
+    background: rgb(128, 189, 240);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 13px;
+
+}
+
+/*
+-------- Sobre Nós
+*/
+
+.content-box{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(205, 228, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+h1.sobre{
+    margin-top: 10px;
+    font-size: 85px;
+    margin-bottom: 10px;
+    color: rgba(18, 3, 75, 0.842);
+}
+
+span.sobre-nos{
+    width: 600px;
+    font-size: 15px;
+    color:rgba(18, 3, 75, 0.842);
+    margin-bottom: 20px;
+}
+
+.leia{
+    width: 120px;
+    height: 40px;
+    background: rgba(18, 3, 75, 0.842);
+    color: white;
+    border: none;
+}
+
+/*
+------- Fale Conosco
+*/
+
+.box-final{
+    width: 100%;
+    height: 800px;
+    background: rgb(43, 59, 107);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fale{
+    font-size:60px ;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.end{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+input{
+    margin-top: 15px;
+    width: 280px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+input:hover{
+    border: 2px solid rgb(83, 43, 226);
+}
+
+textarea{
+    margin-top: 15px;
+    width: 280px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+.btn-form{
+    width: 280px;
+    height: 40px;
+    background:rgba(50, 4, 231, 0.842);
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.btn-form:hover{
+    background: rgba(32, 0, 161, 0.842);
+}
+
